@@ -1,4 +1,7 @@
-// write a c program to find no of even elements and odd elements  in an array.
+// write a c program to 
+//              a) find no of even elements and odd elements  in an array.
+//              b) sum of even numbers and odd numbers in an array.
+//              c)sum of all elements in an array.
 #include<stdio.h>
 void main()
 {
