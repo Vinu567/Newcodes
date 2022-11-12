@@ -2,19 +2,19 @@
 #include<stdio.h>
 void main()
 {
-	int ev,od,i,a[i],n;
+	int ev,od,i,a[i],size;
 	printf("enter size of an array");
-	scanf("%d",&n);
+	scanf("%d",&size);
         printf("enter a numbers in an array");
-	for(i=0;i<n;i++)
+	for(i=0;i<size;i++)
 	{
 		scanf("%d",&a[i]);
 	}
 		if(a[i]/2==0)
-			printf("number enter is even's");
+			printf("number  is even's");
 		        printf("%d",a[i]);
 		else
-			printf("number enter is odd's");
+			printf("number  is odd's");
 		        printf("%d",a[i]);
 
 	}

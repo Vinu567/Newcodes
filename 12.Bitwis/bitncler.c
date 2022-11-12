@@ -1,6 +1,6 @@
-to clear n number of consecutive bits ,form nth position onwards
+//To clear n number of consecutive bits ,form nth position onwards
 
-/*
+
 #include<stdio.h>
 int main(void)
 {
@@ -11,8 +11,8 @@ int main(void)
 	scanf("%d",&pos);
 	printf("n value");
 	scanf("%d",&n);
-        printf("number befor clearing the bits...",&num);
+        printf("number befor clearing the bits...%d",num);
 	res=num&(~(n<<pos)); //clearing the no of bits of the required position with th
 	                      //the help of and bitwise operator
-	printf("number after clearing the bits...",&res);
+	printf("number after clearing the bits...%d",res);
 }

@@ -1,6 +1,6 @@
 // wacp to read  a two strings and print a the strings,check weather the sirings ae equal or not. that mean
 // s compare two strings without string handle functions
-#include<stdio.h>
+/*#include<stdio.h>
 #include<string.h>
 void main()
 {
@@ -27,4 +27,36 @@ void main()
 	}
 
 }
+*/
+#include<stdio.h>
+void main()
+{
+	char a[20],b[20],i=0,c=0;
+	printf("enter a string1");
+        gets(a);
+	printf("enter a string 2");
+	gets(b);
+  	while(a[i]!='\0' && b[i]!='\0')
+      //  for(i=0;(a[i] && b[i] )!='\0';i++)
+	{
+		if(a[i]!=b[i])
+		{
+			c++;
+			break;
+		 
+		}
+         	i++;
+	}
+	if(c==0)
+	  {
+	   printf("stings are equal");
+	  }
+	else 
+	{
+		printf("strings are not equal");
+
+	}
+}
+
+	
 
